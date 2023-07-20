@@ -1,8 +1,5 @@
 #!/bin/bash
 # Dependencies: DOCKER
-# Install in OSX (with Homebrew): brew install --cask Docker
-# if (ARM) softwareupdate --install-rosetta
-
 
 function install_container() {
     read -p "Please choose a name for the container: " DOCK_NAME
