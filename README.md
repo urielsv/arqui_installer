@@ -1,5 +1,19 @@
 # Arqui Installer
 Instalador del container de docker para Arquitectura de Computadoras.
+
+En caso de ser necesario, agregarle permisos de ejecucion al script.
+```bash
+chmod u+x arqui_installer.sh
+```
+Para ejecutar el script, simplemente
+```bash
+./arqui_installer.sh
+```
+Aclaraciones: 
+- El contenedor se creara en ``working directory`` (sera el home para el contenedor).
+- Nombre del contenedor debe ser alfanumerico, entre 3 y 20 caracteres.
+
+# Instalacion de Docker
 ## Instalacion en Windows
 Validar el uso de WSL 2 en el sistema con el comando ``wsl -l -p`` desde PowerShell.
 Luego, para instalar seguir la guia de instalacion en [Windows install](https://docs.docker.com/desktop/install/windows-install/)
